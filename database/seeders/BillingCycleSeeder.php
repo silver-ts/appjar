@@ -16,7 +16,8 @@ class BillingCycleSeeder extends Seeder
     public function run()
     {
         DB::table('billing_cycles')->insert([
-            'name' => 'monthly'
+            'name' => 'monthly',
+            'active' => true
         ]);
 
         DB::table('billing_cycles')->insert([
