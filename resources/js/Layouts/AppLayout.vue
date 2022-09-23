@@ -2,7 +2,5 @@
 </script>
 
 <template>
-    <div class="container">
-        <slot />
-    </div>
+    <slot />
 </template>
